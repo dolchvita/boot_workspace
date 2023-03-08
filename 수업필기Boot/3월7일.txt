@@ -1,0 +1,54 @@
+spring boot
+
+
+IDE - eclicpse, 인텔리j
+
+Gradle 로 사용
+
+jar war 상관없음!
+
+
+java 버전 확인!!  (11ver)
+cmd - java -version
+
+부트에서는 jsp 를 사양하고
+이를 대체하는/ 뷰템플릿, 타임리프(thymeleas), 머스태치 등을 사용
+
+
+스프링부트 버전 : 2.7.9
+자바 버전 : 11
+
+
+디펜덴시추가
+Lombok
+Thymeleaf
+SpringWeb
+
+
+jar (스탠다드) 버전이기 때문에  다운받기!
+
+
+application properties
+-- 스프링에 필요한 설정을 하는 곳!
+  Property 객체이다!
+
+
+jsp를 안 쓰는 이유는?
+jsp는 서버에서만 가동이 되기 때문에, 중립적이지 않음!
+
+
+
+
+
+// html 파일 추가하기
+먼저 마켓플레이스에서 Web Developer Tools 3.28 다운!
+
+템플릿에 동적 자원 추가하기!!
+
+<html xmlns="http://www.thymeleaf.org">
+html 태그 안에 네임스페이스 명시하기
+
+
+
+
+

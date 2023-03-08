@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<!-- header_link 올 곳 -->
+<th:block th:replace="/inc/header_link"/>
+
+</head>
+<body>
+
+	
+	<div class="container">
+
+
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+					<td>john@example.com</td>
+				</tr>
+				<tr>
+					<td>Mary</td>
+					<td>Moe</td>
+					<td>mary@example.com</td>
+				</tr>
+				<tr>
+
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	<!-- footer 들어올 곳 -->
+	<th:block th:replace="/inc/footer"/>
+	</div>
+	
+</body>
+</html>

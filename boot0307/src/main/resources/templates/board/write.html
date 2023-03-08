@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<!-- header_link 올 곳 -->
+<th:block th:replace="/inc/header_link"/>
+
+</head>
+<body>
+
+
+	<div class="container">
+	
+
+	<div class="form-group row">
+		<div class="col">
+			<input type="text" name="product_name" class="form-control"
+				placeholder="상품명">
+		</div>
+	</div>
+
+	<div class="form-group row">
+		<div class="col">
+			<input type="text" name="brand" class="form-control"
+				placeholder="브랜드">
+		</div>
+	</div>
+
+
+
+	<div class="form-group row">
+		<div class="col">
+			<textarea name="detail" class="form-control" id="detail"></textarea>
+		</div>
+	</div>
+
+
+	<div class="form-group row">
+		<div class="col">
+			<button type="button" class="btn btn-danger btn-md" id="bt_regist">등록</button>
+			<button type="button" class="btn btn-danger btn-md" id="bt_list">목록</button>
+		</div>
+	</div>
+
+
+
+	<!-- footer 들어올 곳 -->
+	<th:block th:replace="/inc/footer"/>
+	</div>
+	
+</body>
+</html>
